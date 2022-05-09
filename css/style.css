@@ -8,15 +8,26 @@
 /* COMMON */
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    display: block;
 }
 
 /* HEADER */
 header {
     padding: 0.5% 0.5%;
     height: 50px;
-    display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+
     /* TEST */
     background-color: red;
 }
@@ -24,17 +35,43 @@ header {
 .speaker-view-btn {
     padding: 5px 5px;
     border-radius: 5px;
-    font-size: 10px;
-    color: white;
     background-color: #4a4a4a;
 }
 
 /* MAIN */
 main {
     height: calc(100vh - 100px);
+    overflow-y: auto;
 
     /* TEST */
     background-color: coral;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* TEST */
+    background-color: lightblue;
+}
+
+.box {
+    margin-bottom: 12px;
+    width: calc(100% / 7 - 3px);
+    position: relative;
+
+    /* TEST */
+    background-color: blueviolet;
+}
+
+.box-text {
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /* FOOTER */
