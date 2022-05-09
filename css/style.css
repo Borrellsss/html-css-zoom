@@ -5,4 +5,26 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+header {
+    height: 50px;
 
+    /* TEST */
+    background-color: red;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 100px);
+
+    /* TEST */
+    background-color: coral;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+
+    /* TEST */
+    background-color: lightgreen;
+}
