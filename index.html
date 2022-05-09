@@ -12,17 +12,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- header -->
+    <!-- HEADER -->
     <header class="flex-container">
-        <div class="speaker-view-btn">
+        <div class="header-btn">
             <span>
                 <i class="fas fa-th" aria-hidden="true"></i>
                 Speaker View
             </span>
         </div>
+
+        <div class="header-btn">
+            <span>
+                <i class="fas fa-expand-arrows-alt" aria-hidden="true"></i>
+            </span>
+        </div>
     </header>
 
-    <!-- main -->
+    <!-- MAIN -->
     <main>
         <div class="container flex-container">
 
@@ -378,23 +384,155 @@
             </div>
         </div>
     </main>
+    <!-- MAIN END -->
 
-    <!-- footer -->
-    <footer>
-        <i class="fas fa-th" aria-hidden="true"></i>
-        <i class="fas fa-expand-arrows-alt" aria-hidden="true"></i>
-        <i class="fas fa-microphone-slash" aria-hidden="true"></i>
-        <i class="fas fa-microphone fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-angle-up" aria-hidden="true"></i>
-        <i class="fas fa-video fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-user-plus fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-user-friends fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-chart-bar fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-share-square fa-2x green" aria-hidden="true"></i>
-        <i class="fas fa-comment fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-record-vinyl fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-th-large fa-2x" aria-hidden="true"></i>
-        <i class="fas fa-ellipsis-h fa-2x" aria-hidden="true"></i>
+    <!-- FOOTER -->
+    <footer class="flex-container">
+        <!-- footer left side list -->
+        <div>
+            <ul class="user-settings flex-container">
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-microphone fa-2x" aria-hidden="true"></i>
+                            <div class="footer-icon-text">Mute</div>
+                        </span>
+                    </div>
+                    <!-- arrow up -->
+                    <ul>
+                        <li class="arrow-up">
+                            <div>
+                                <span>
+                                    <i class="fas fa-angle-up" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-video fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">Stop Video</div>
+                    </div>
+                    <!-- arrow up -->
+                    <ul>
+                        <li class="arrow-up">
+                            <div>
+                                <span>
+                                    <i class="fas fa-angle-up" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- footer center list -->
+        <div>
+            <ul class="utility-list flex-container">
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-user-plus fa-2x" aria-hidden="true"></i>
+                            <div class="footer-icon-text">Invite</div>
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-user-friends fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">Manage Partecipans</div>
+                    </div>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-chart-bar fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">Polling</div>
+                    </div>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span class="green-icon">
+                            <i class="fas fa-share-square fa-2x green" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">Share Screen</div>
+                    </div>
+                    <!-- arrow up -->
+                    <ul>
+                        <li class="arrow-up">
+                            <div>
+                                <span>
+                                    <i class="fas fa-angle-up" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-comment fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">Chat</div>
+                    </div>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-record-vinyl fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">Record</div>
+                    </div>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-th-large fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">Breakout Rooms</div>
+                    </div>
+                </li>
+
+                <li>
+                    <!-- icon -->
+                    <div>
+                        <span>
+                            <i class="fas fa-ellipsis-h fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <div class="footer-icon-text">More</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- footer right side -->
+        <div class="end-meeting flex-container">
+            <span>End Meeting</span>
+        </div>
     </footer>
+    <!-- FOOTER END -->
 </body>
 </html>
