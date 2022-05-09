@@ -5,12 +5,28 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
 header {
+    padding: 0.5% 0.5%;
     height: 50px;
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
     /* TEST */
     background-color: red;
+}
+
+.speaker-view-btn {
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: #4a4a4a;
 }
 
 /* MAIN */
